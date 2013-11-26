@@ -16,10 +16,15 @@
 
 
 ## Ignore libraries build directories.
-zlib_src/build/
-zlib_src/build64/
-libzip_src/build/
-libzip_src/build64/
+zlib_src/build/*
+zlib_src/build64/*
+libzip_src/build/*
+libzip_src/build64/*
+
+!zlib_src/build/build_lib_with_cmake.bat
+!zlib_src/build64/build_lib_with_cmake.bat
+!libzip_src/build/build_lib_with_cmake.bat
+!libzip_src/build64/build_lib_with_cmake.bat
 
 
 ## Ignore Visual Studio temporary files, build results, and
@@ -35,7 +40,7 @@ libzip_src/build64/
 [Dd]ebugPublic/
 [Rr]elease/
 x64/
-build/
+build/*
 bld/
 [Bb]in/
 [Oo]bj/
