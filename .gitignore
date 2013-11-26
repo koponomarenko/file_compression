@@ -1,3 +1,5 @@
+## C++ general ignore rules
+
 # Compiled Object files
 *.slo
 *.lo
@@ -11,6 +13,13 @@
 *.lai
 *.la
 *.a
+
+
+## Ignore libraries build directories.
+zlib_src/build/
+zlib_src/build64/
+libzip_src/build/
+libzip_src/build64/
 
 
 ## Ignore Visual Studio temporary files, build results, and
