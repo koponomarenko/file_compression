@@ -8,3 +8,7 @@ zlib-1.2.8
 line endings conversion:
 <br />
 find /d/src/file_compression/zlib/ -type f -exec dos2unix -v --u2d "{}" \;
+
+<br />
+Requirements:<br />
+for Windows: Visual Studio 2010, CMake

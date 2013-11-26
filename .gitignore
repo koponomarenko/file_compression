@@ -25,6 +25,10 @@ libzip_src/build64/*
 !zlib_src/build64/build_lib_with_cmake.bat
 !libzip_src/build/build_lib_with_cmake.bat
 !libzip_src/build64/build_lib_with_cmake.bat
+!zlib_src/build/README
+!zlib_src/build64/README
+!libzip_src/build/README
+!libzip_src/build64/README
 
 
 ## Ignore Visual Studio temporary files, build results, and
