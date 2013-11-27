@@ -5,13 +5,25 @@ libzip-9f556511f9c9
 zlib-1.2.8
 
 ----------------
+
 **Line endings conversion:**
 
     find /d/src/file_compression/zlib/ -type f -exec dos2unix -v --u2d "{}" \;
 
-<br />
+
 **Requirements:**<br />
 for Windows: Visual Studio 2010, CMake 2.8
+
+**How to build libraries**
+
+    zlib_src/build/README
+    zlib_src/build/build_lib_with_cmake.bat
+    zlib_src/build64/README
+    zlib_src/build64/build_lib_with_cmake.bat
+    libzip_src/build/README
+    libzip_src/build/build_lib_with_cmake.bat
+    libzip_src/build64/README
+    libzip_src/build64/build_lib_with_cmake.bat
 
 
 **Modifications were made to Zlib:**
