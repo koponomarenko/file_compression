@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\minizip">
+      <UniqueIdentifier>{ce8b67d9-e3d5-4b61-8ba7-127b8b1c5c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minizip">
+      <UniqueIdentifier>{0be9dca0-c7c1-48d8-a17b-4f2889ba9c62}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Archive.cpp">
@@ -21,10 +27,22 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\zlib_src\contrib\minizip\ioapi.c">
+      <Filter>Source Files\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib_src\contrib\minizip\zip.c">
+      <Filter>Source Files\minizip</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Archive.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib_src\contrib\minizip\ioapi.h">
+      <Filter>Header Files\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib_src\contrib\minizip\zip.h">
+      <Filter>Header Files\minizip</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
