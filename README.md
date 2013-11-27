@@ -25,6 +25,7 @@ for Windows: Visual Studio 2010, CMake 2.8
     libzip_src/build64/README
     libzip_src/build64/build_lib_with_cmake.bat
 
+----------------
 
 **Modifications were made to Zlib:**
 
