@@ -1,6 +1,6 @@
 **Libraries version:**
 
-libzip-9f556511f9c9
+libzip-555e67023378
 <br />
 zlib-1.2.8
 
